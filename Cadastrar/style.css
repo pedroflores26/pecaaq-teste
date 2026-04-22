@@ -1,0 +1,90 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form label {
+    color: #ccc;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+select {
+    background: #2a2a2a;
+    color: #fff;
+}
+
+input {
+    background: #2a2a2a;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+.btn-cadastrar {
+    background: #6f87ff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-cadastrar:hover {
+    background: #00d9ff;
+}
+
+.voltar {
+    display: block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
